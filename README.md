@@ -42,7 +42,7 @@ Optimized this to fit all screen sizes as best as possible. The goal was for the
 
 # Packages/Dependencies used
 
-`npm install figlet cors`
+`npm install figlet`
 
 # Start your server in the terminal
 cmd + j to open terminal in vs code or ctrl + j
