@@ -15,42 +15,62 @@ const server = http.createServer((req, res) => {
       res.end();
     });
   }
-  else if (page == '/otherpage') {
-    fs.readFile('otherpage.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
-  }
-  else if (page == '/otherotherpage') {
-    fs.readFile('otherotherpage.html', function(err, data) {
-      res.writeHead(200, {'Content-Type': 'text/html'});
-      res.write(data);
-      res.end();
-    });
-  }
-  else if (page == '/api') {
-    if('student' in params){
-      if(params['student']== 'leon'){
+     
+else if (page == '/api') {
+    // Object for food types
+      
         res.writeHead(200, {'Content-Type': 'application/json'});
-        const objToJson = {
-          name: "leon",
-          status: "Boss Man",
-          currentOccupation: "Baller"
+        const typeOfCuisine = {
+          '1': {
+            'typeOfFood': 'Italian',
+        },
+    
+        '2': {
+          'typeOfFood': 'Chinese',
+        },
+    
+        '3': {
+            'typeOfFood': 'French',
+        },
+
+        '4': {
+           'typeOfFood': 'Mexican',
+        },
+
+        '5': {
+           'typeOfFood': 'Indian',
+        },
+
+        '6': {
+           'typeOfFood': 'Greek',
+        },
+
+        '7': {
+           'typeOfFood': 'Thai',
+        },
+
+        '8': {
+           'typeOfFood': 'Japanese',
+        },
+
+        '9': {
+           'typeOfFood': 'Pakistani',
+        },
+
+        '10': {
+           'typeOfFood': 'Korean',
         }
-        res.end(JSON.stringify(objToJson));
-      }//student = leon
-      else if(params['student'] != 'leon'){
-        res.writeHead(200, {'Content-Type': 'application/json'});
-        const objToJson = {
-          name: "unknown",
-          status: "unknown",
-          currentOccupation: "unknown"
-        }
-        res.end(JSON.stringify(objToJson));
-      }//student != leon
-    }//student if
+
+      }
+
+      
+    //math.random function
+
+    //respond with the random value as a json
+    res.end(JSON.stringify(randomValue));
+
   }//else if
+
   else if (page == '/css/style.css'){
     fs.readFile('css/style.css', function(err, data) {
       res.write(data);
