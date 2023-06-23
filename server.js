@@ -62,7 +62,6 @@ else if (page == '/api') {
         }
 
       }
-
     //math.random function
       const totalCuisineTypes = Object.keys(typeOfCuisine).length;
       const randomIndex = Math.floor(Math.random() * totalCuisineTypes) + 1;
