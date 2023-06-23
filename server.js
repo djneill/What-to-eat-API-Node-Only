@@ -66,13 +66,13 @@ else if (page == '/api') {
     //math.random function
       const totalCuisineTypes = Object.keys(typeOfCuisine).length;
       const randomIndex = Math.floor(Math.random() * totalCuisineTypes) + 1;
-      const randomKey = randomIndex.toString().padStart(2, '0');
+      const randomKey = randomIndex.toString();
       const randomValue = typeOfCuisine[randomKey];
   
     //respond with the random value as a json
     res.end(JSON.stringify(randomValue));
 
-  }//else if
+  }
 
   else if (page == '/css/style.css'){
     fs.readFile('css/style.css', function(err, data) {
