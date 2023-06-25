@@ -5,7 +5,7 @@ async function makeReq() {
   const res = await fetch(`https://what-to-eat-api.onrender.com/api${pick}`);
 
   try {
-    const data = await response.json()
+    const data = await res.json()
     console.log(data);
     document.querySelector('#typeOfCuisine').textContent = data.typeOfFood;
   } catch (error) {
