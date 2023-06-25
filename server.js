@@ -67,6 +67,4 @@ const server = http.createServer((req, res) => {
   }
 });
 
-server.use(cors());
-
 server.listen(8000);
