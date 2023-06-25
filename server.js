@@ -3,6 +3,8 @@ const fs = require('fs')
 const url = require('url');
 const querystring = require('querystring');
 const figlet = require('figlet')
+const cors = require('cors');
+
 
 const server = http.createServer((req, res) => {
   const page = url.parse(req.url).pathname;
@@ -64,5 +66,7 @@ const server = http.createServer((req, res) => {
     });
   }
 });
+
+app.use(cors());
 
 server.listen(8000);
