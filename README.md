@@ -2,7 +2,8 @@
 
 <h1 align="center">What to eat API Node Only</h1>
 
-Take a look at it here 👉 *coming soon*
+Take a look at it here 👉 https://what-to-eat-api.onrender.com/
+*Render does take a minute to spin up the first time*
 
 <h2 align="center">Tech Used</h2> 
 <p align="center"> HTML5, CSS3,Javascript, Node.js</p>
