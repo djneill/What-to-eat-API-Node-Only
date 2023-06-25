@@ -18,8 +18,6 @@ const server = http.createServer((req, res) => {
 
   else if (page == '/api') {
     // Object for food types
-
-    res.writeHead(200, { 'Content-Type': 'application/json' });
     const typeOfCuisine = [
       { 'typeOfFood': 'Italian' },
       { 'typeOfFood': 'Chinese' },
@@ -33,12 +31,11 @@ const server = http.createServer((req, res) => {
       { 'typeOfFood': 'Korean' }
     ];
 
-
     //math.random function
-    const totalCuisineTypes = typeOfCuisine.length;
-    const randomIndex = Math.floor(Math.random() * totalCuisineTypes);
+    const randomIndex = Math.floor(Math.random() * typeOfCuisine.length);
     const randomValue = typeOfCuisine[randomIndex];
   
+    res.writeHead(200, { 'Content-Type': 'application/json' });
     //respond with the random value as a json
     res.end(JSON.stringify(randomValue));
 
