@@ -1,8 +1,8 @@
 document.querySelector('#clickMe').addEventListener('click', makeReq);
 
 async function makeReq() {
-
-  const res = await fetch(`/api`);
+  const pick = document.querySelector("button[name=button]").value
+  const res = await fetch(`/api${pick}`);
   const responseText = await res.text();
   console.log(responseText);
 
