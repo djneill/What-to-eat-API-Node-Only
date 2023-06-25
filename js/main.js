@@ -2,7 +2,7 @@ document.querySelector('#clickMe').addEventListener('click', makeReq)
 
 async function makeReq(){
 
-  const res = await fetch(`/api`)
+  const res = await fetch(`https://what-to-eat-api-node-only.vercel.app/api`)
   const data = await res.json()
 
   console.log(data)
