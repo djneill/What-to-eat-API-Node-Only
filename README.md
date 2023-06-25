@@ -16,7 +16,7 @@ Optimized this to fit all screen sizes as best as possible. The goal was for the
 
 # Contributors
 
-<p><img align="center" src="https://contributors-img.web.app/image?repo=djneill/What-to-eat-API-Node-Only"/></p>
+<p><img src="https://contributors-img.web.app/image?repo=djneill/What-to-eat-API-Node-Only"/></p>
 
 <p>[DJ Neill](https://github.com/djneill)</p>
 *More to come*
