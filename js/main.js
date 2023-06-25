@@ -2,7 +2,7 @@ document.querySelector('#clickMe').addEventListener('click', makeReq);
 
 async function makeReq() {
   const pick = document.querySelector("button[name=button]").value
-  const res = await fetch(`/api${pick}`);
+  const res = await fetch(`https://what-to-eat-api.onrender.com/api${pick}`);
   const responseText = await res.text();
   console.log(responseText);
 
