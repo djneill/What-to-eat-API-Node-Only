@@ -20,39 +20,18 @@ const server = http.createServer((req, res) => {
     // Object for food types
 
     res.writeHead(200, { 'Content-Type': 'application/json' });
-    const typeOfCuisine = {
-      '1': {
-        'typeOfFood': 'Italian',
-      },
-      '2': {
-        'typeOfFood': 'Chinese',
-      },
-      '3': {
-        'typeOfFood': 'French',
-      },
-      '4': {
-        'typeOfFood': 'Mexican',
-      },
-      '5': {
-        'typeOfFood': 'Indian',
-      },
-      '6': {
-        'typeOfFood': 'Greek',
-      },
-      '7': {
-        'typeOfFood': 'Thai',
-      },
-      '8': {
-        'typeOfFood': 'Japanese',
-      },
-      '9': {
-        'typeOfFood': 'Pakistani',
-      },
-      '10': {
-        'typeOfFood': 'Korean',
-      }
-
-    }
+    const typeOfCuisine = [
+      { 'typeOfFood': 'Italian' },
+      { 'typeOfFood': 'Chinese' },
+      { 'typeOfFood': 'French' },
+      { 'typeOfFood': 'Mexican' },
+      { 'typeOfFood': 'Indian' },
+      { 'typeOfFood': 'Greek' },
+      { 'typeOfFood': 'Thai' },
+      { 'typeOfFood': 'Japanese' },
+      { 'typeOfFood': 'Pakistani' },
+      { 'typeOfFood': 'Korean' }
+    ];
 
 
     //math.random function
