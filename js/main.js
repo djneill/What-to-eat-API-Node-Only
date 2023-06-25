@@ -7,6 +7,6 @@ async function makeReq(){
 
   console.log(data)
   // let randomNum=Math.floor(Math.random()*10)+1
-  document.querySelector('#typeOfCuisine').textContent = data[randomNum].typeOfFood
-  document.getElementById('clickMe').style.display='none'
+  document.querySelector('#typeOfCuisine').textContent = data.typeOfFood
+  // document.getElementById('clickMe').style.display='none'
 }
