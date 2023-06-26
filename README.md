@@ -13,14 +13,17 @@
 
 <h2 align="center">Optimizations</h2>
 
-Optimized this to fit all screen sizes as best as possible. The goal was for the user to have a fluid experience on all their devices. Designed with mobile first in mind.
+Optimized this to fit all screen sizes as best as possible. The goal was for the user to have a fluid experience on all their devices. Designed with mobile-first in mind.
 
 # Contributors
 
-<p><img src="https://contributors-img.web.app/image?repo=djneill/What-to-eat-API-Node-Only"/></p>
+<p><img src="https://contributors-img.web.app/image?repo=djneill/What-to-eat-API-Node-Only" /></p>
 
-<p>[DJ Neill](https://github.com/djneill)</p>
-*More to come*
+<p>DJ Neill https://github.com/djneill</p>
+<p>Nia https://github.com/njpleasants</p>
+<p>sp-22-11 https://github.com/sp-22-11</p>
+<p>1x55 https://github.com/1x55</p>
+<p>Jimena https://github.com/weller7</p>
 
 # Getting Started
 
