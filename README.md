@@ -1,15 +1,27 @@
-<img align="center" src="public/img/fitTodo.gif" alt="gif of operating app"/>
+<table bordercolor="#66b2b2">
 
+<tr>
+<td width="50%" valign="top">
+<img src="one.png" />
+</td>
+
+<td width="50%" valign="top">
+<p align="center"><img src="two.png" /></p>       
+</td>
+</tr>
+</table>
 <h1 align="center">What to eat API Node Only</h1>
 
 <p>Take a look at it here 👉 https://what-to-eat-api.onrender.com/</p>
 <p></p>*Render does take a minute to spin up the first time*</p>
 
 <h2 align="center">Tech Used</h2> 
-<p align="center"> HTML5, CSS3,Javascript, Node.js</p>
+<p align="center"> HTML5, CSS3, Javascript, Node.js</p>
 
 <h2 align="center">Goals and Accomplishments</h2>
-*coming soon*
+Our team project aimed to create an API integrated with a client-side application using HTML, CSS, JavaScript, and Node.js. We sought to provide seamless data communication and user-friendly interfaces, leveraging the power of these web technologies.
+
+Throughout the development process, we successfully implemented robust API endpoints and designed an intuitive client-side interface that enhanced user experience. By utilizing the core web technologies of HTML, CSS, JavaScript, and Node.js, we achieved a functional and efficient solution that meets the project's objectives.
 
 <h2 align="center">Optimizations</h2>
 
